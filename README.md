@@ -1,4 +1,4 @@
-# ESP32 DHT22 IoT Dashboard
+# ESP32-DHT22-IoT-Dashboard
 
 A beginner-friendly tutorial to connect an **ESP32** with a **DHT22 sensor** to measure temperature and humidity, store data in a **MySQL database** via a **REST API**, and display it on a **web dashboard**. This project is part of a hands-on learning series by **Yarana IoT Guru** on YouTube.
 
@@ -8,7 +8,7 @@ A beginner-friendly tutorial to connect an **ESP32** with a **DHT22 sensor** to 
 
 🌐 **Live Dashboard:**  
 [https://yaranaiotguru.in/tutorial/DHT/dht_sensor.php](https://yaranaiotguru.in/tutorial/DHT/dht_sensor.php)  
-![Dashboard Screenshot](https://yaranaiotguru.in/tutorial/DHT/dashboard_screenshot.png)
+![Dashboard Screenshot](images/dashboard_screenshot.png)
 
 🌐 **API Endpoint:**  
 [https://yaranaiotguru.in/tutorial/DHT/](https://yaranaiotguru.in/tutorial/DHT/)
@@ -69,6 +69,7 @@ Ideal for **beginners**, it covers hardware (ESP32 and DHT22) and software (PHP 
 | `/api/`             | PHP scripts for API (e.g., `insert_data.php`)         |
 | `/dashboard/`       | Dashboard files (e.g., `dht_sensor.php`)              |
 | `/db/`              | SQL file (`database.sql`) for MySQL database          |
+| `/images/`          | Screenshot (`dashboard_screenshot.png`)               |
 | `README.md`         | This documentation                                   |
 | `LICENSE`           | MIT License for open-source usage                    |
 
@@ -235,6 +236,7 @@ Hosted at [https://yaranaiotguru.in/tutorial/DHT/](https://yaranaiotguru.in/tuto
    - Check for `Connected to WiFi`, `HTTP Response code: 200`, or `Server response: {"status": "success"}`.
    - Verify data in phpMyAdmin (`sensor_data` table).
    - View dashboard at `http://localhost/tutorial/DHT/dht_sensor.php` or hosted URL.
+   - Add `dashboard_screenshot.png` to `/images/` in the repository.
 
 ### 📷 Circuit Diagram
 ```
@@ -264,7 +266,7 @@ GPIO4 ----    DATA
 3. **Dashboard**:
    - URL: [https://yaranaiotguru.in/tutorial/DHT/dht_sensor.php](https://yaranaiotguru.in/tutorial/DHT/dht_sensor.php)
    - Shows temperature/humidity in a table or graph.
-   - ![Dashboard Screenshot](https://yaranaiotguru.in/tutorial/DHT/dashboard_screenshot.png)
+   - ![Dashboard Screenshot](images/dashboard_screenshot.png)
 
 4. **YouTube Thumbnail**:
    - ![YouTube Thumbnail](https://img.youtube.com/vi/EnGpFsDIons/0.jpg)
@@ -282,13 +284,13 @@ GPIO4 ----    DATA
 | Dashboard not updating       | Ensure `dht_sensor.php` fetches data; check database connection.         |
 | Arduino upload error         | Select correct board/port; install ESP32 package; check USB cable.       |
 
-For more help, watch the [YouTube video](https://youtu.be/EnGpFsDIons?si=d_i4WjDrf0Cq8Abw) or comment there.
+For help, watch the [YouTube video](https://youtu.be/EnGpFsDIons?si=d_i4WjDrf0Cq8Abw) or comment there.
 
 ---
 
 ## 🙋‍♂️ About the Author
 **Mr. Abhishek Maurya**  
-Creator of **Yarana IoT Guru**, passionate about teaching IoT and electronics through hands-on projects.
+Creator of **Yarana IoT Guru**, passionate about teaching IoT and electronics.
 
 - **YouTube**: [Yarana IoT Guru](https://www.youtube.com/@YaranaIoTGuru)
 - **Website**: [https://yaranaiotguru.in](https://yaranaiotguru.in)
